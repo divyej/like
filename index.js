@@ -24,7 +24,7 @@ html.textContent = days + "d "
 + hours + "h " + minutes + "m " + seconds + "s ";
     if (t < 0) {
         clearInterval(x);
-        document.getElementById("demo").textContent = "H"
+        document.getElementById("demo").textContent = "H"}
 }, 1000); 
   }
 })
